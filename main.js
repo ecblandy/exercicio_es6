@@ -7,9 +7,10 @@ const pessoas = [
 const pessoasNotasMenores = notasMenoresQueSeis(pessoas);
 
 function notasMenoresQueSeis(dados) {
-    const pessoasFiltradas = dados.filter(pessoa => pessoa.nota < 6);
+    const pessoasFiltradas = dados.filter(pessoa => pessoa.nota >= 6);
     return pessoasFiltradas;
   }
   
-  console.log(pessoasNotasMenores);
+console.log(pessoasNotasMenores);
   
+
